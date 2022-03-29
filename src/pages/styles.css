@@ -2,6 +2,13 @@
     font-family: 'Fraunces';
 }
 
+.hero-name {
+    font-family: 'Fraunces';
+    background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 h2 {
     font-family: 'Fraunces';
     text-align: center;
@@ -16,10 +23,10 @@ body {
 }
 
 #hero {
-    height: 90vh;
+    height: 100vh;
 }
 
-.cta {
+/* .cta {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     border-radius: 25px;
     border-style: none;
@@ -28,19 +35,12 @@ body {
 
 .cta:hover {
     background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%);
-}
+} */
 
 #about-me {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    height: 100vh;
-}
-
-.aboutme-pic {
-    border-radius: 20%;
-}
-
-.img-container {
-    width: 60%;
+    min-height: 100vh;
+    padding-bottom: 200px;
 }
 
 .diagonal {
@@ -50,9 +50,14 @@ body {
 }
 
 #my-work {
-    height: 100vh;
+    min-height: 100vh;
 }
 
+.project-card {
+    width: 85%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .project-image-container {
     width: 600px;
@@ -75,3 +80,60 @@ body {
 .gh-link:hover {
     font-size: 18px;
 }
+
+#contact-me {
+    -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  height: 60vh;
+}
+
+#footer {
+    height: 25vh;
+}
+
+.my-social-icon {
+    color: white !important;
+}
+
+.contact-btn {
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.about-me-container {
+    max-width: 350px;
+    max-height: 350px;
+    width: 50vw;
+    height: 50vw;
+}
+
+.about-me-pic {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.cta {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
+.cta {
+
+   padding: 15px 45px;
+   text-align: center;
+   text-decoration: none;
+   transition: 0.5s;
+   background-size: 200% auto;           
+   border-radius: 10px;
+ }
+
+ .cta:hover {
+   background-position: right center; /* change the direction of the change here */
+   text-decoration: none;
+ }

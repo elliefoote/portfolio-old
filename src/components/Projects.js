@@ -50,19 +50,19 @@ const Projects = () => {
 
         <h2 className="display-3 mb-4 text-dark">Projects</h2>
 
-        <div className="container mt-5">
+        <div className="container mt-5 d-flex flex-column align-items-center">
 
         {
 
             projectData.map(p => (
 
-                <div className={p.leftOrRight==="left" ? "project-card row justify-content-center gx-5 mb-5" : "project-card row justify-content-center gx-5 mb-5 flex-row-reverse"} key={p.id}>
+                <div className={p.leftOrRight==="left" ? "project-card row justify-content-center gx-5 mb-5 shadow" : "project-card row justify-content-center gx-5 mb-5 flex-row-reverse shadow"} key={p.id}>
 
-                    <div className="project-image-container col-8">
+                    <div className="project-image-container col-md-8">
                     <img alt={p.title} src={p.img} className="project-image" />
                     </div>
 
-                    <div className="col-4 border">
+                    <div className="col-md-4">
                         <div className="fs-3">{p.title}</div>
                         <div className="fs-6">{p.description}</div>
                         <div className="mt-4"><a href={p.liveLink} className="cta text-light py-2 px-3 fs-6 me-3">View Live Version</a> <a href={p.codeLink} className="gh-link">View On GitHub</a></div>
