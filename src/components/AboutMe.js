@@ -31,7 +31,7 @@ const AboutMe = () => {
         My greatest strengths are my creativity, flexibility and adaptability. I'm attracted to tech because I love solving tricky problems and being pushed to learn and develop. 
         <br /><br/>
         <h3>My tech stack:</h3> React.js | HTML/CSS/Bootstrap | Node.js | Express.js | MySQL <br /><br/>
-        <h3>Currently learning:</h3> Gatsby.js (I used it to build this site!) | MongoDB
+        <h3>Currently learning:</h3> Gatsby.js (I used it to build this site!)
         <div className="d-flex justify-content-start mt-4 w-100"><a href={EllieFooteCV} className="contact-btn text-light fs-5 py-2 px-3">My CV</a></div>
         </div>
         

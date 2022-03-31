@@ -115,6 +115,15 @@ body {
     width: 100%;
 }
 
+.my-nav {
+    color: #212529;
+}
+
+.my-nav:hover {
+    color: #212529;
+    text-decoration: underline;
+}
+
 
 
 
