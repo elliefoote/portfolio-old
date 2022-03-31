@@ -1,7 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image";
 import EllieWork from '../images/Ellie_Work1.jpg';
-
+import EllieFooteCV from '../images/EllieFooteCV.pdf';
 
 const AboutMe = () => {
   return (
@@ -24,11 +24,15 @@ const AboutMe = () => {
 
         </div>
 
-        <div className="col-md-7 fs-5 d-flex flex-column justify-content-center align-items-center pe-3">
-        My career journey has taken me from Melbourne to Barcelona, and from social policy to English teaching to software development. Many elements of software development are a great fit for my skills, including my love of solving problems and my drive to constantly learn new things. 
-        <br /><br />
-        On the front end, I love working with React.js, and I make everything look beautiful using HTML, vanilla CSS, and frameworks like Bootstrap. On the back end, I use Node.js and Express.js. When I’m building static sites (like this one!), I love using Gatsby.js. 
-        <div className="d-flex justify-content-start mt-4 w-100"><a href="mailto:eleanorjfoote@gmail.com" className="contact-btn text-light fs-5 py-2 px-3">My CV</a></div>
+        <div className="about-me-text col-md-7 fs-5 d-flex flex-column pe-3">
+        <h3>The story so far</h3>
+        My career (and life) journey has taken me from a small country town in Australia to my current home in Barcelona. 
+        <br /><br/>
+        My greatest strengths are my creativity, flexibility and adaptability. I'm attracted to tech because I love solving tricky problems and being pushed to learn and develop. 
+        <br /><br/>
+        <h3>My tech stack:</h3> React.js | HTML/CSS/Bootstrap | Node.js | Express.js | MySQL <br /><br/>
+        <h3>Currently learning:</h3> Gatsby.js (I used it to build this site!) | MongoDB
+        <div className="d-flex justify-content-start mt-4 w-100"><a href={EllieFooteCV} className="contact-btn text-light fs-5 py-2 px-3">My CV</a></div>
         </div>
         
 

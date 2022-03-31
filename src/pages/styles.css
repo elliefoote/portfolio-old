@@ -137,3 +137,11 @@ body {
    background-position: right center; /* change the direction of the change here */
    text-decoration: none;
  }
+
+ .about-me-text {
+     text-align: left;
+ }
+
+ h3 {
+     text-align: left;
+ }
