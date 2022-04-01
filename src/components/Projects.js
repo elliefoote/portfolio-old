@@ -58,14 +58,20 @@ const Projects = () => {
 
                 <div className={p.leftOrRight==="left" ? "project-card row justify-content-center gx-5 mb-5 shadow" : "project-card row justify-content-center gx-5 mb-5 flex-row-reverse shadow"} key={p.id}>
 
-                    <div className="project-image-container col-md-8">
+                    <div className="project-image-container col-xl-8">
                     <img alt={p.title} src={p.img} className="project-image" />
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-xl-4">
                         <div className="fs-3">{p.title}</div>
                         <div className="fs-6">{p.description}</div>
-                        <div className="mt-4"><a href={p.liveLink} className="cta text-light py-2 px-3 fs-6 me-3">View Live Version</a> <a href={p.codeLink} className="gh-link">View On GitHub</a></div>
+
+                        <div className="mt-4">
+                            
+                            <a href={p.liveLink} className="cta text-light py-2 px-3 fs-6">View Live Version</a>
+                            <a href={p.codeLink} className="gh-link ms-3">View On GitHub</a>
+                            
+                        </div>
                     </div>
 
 
