@@ -13,7 +13,11 @@ export default function ProjectImage({filename, alt}) {
                   relativePath
                   name
                   childImageSharp {
-                    gatsbyImageData(width: 500)
+                    gatsbyImageData(
+                        width: 500
+                        placeholder: BLURRED
+                        formats: [AUTO, WEBP]
+                        )
                   }
                 }
               }
