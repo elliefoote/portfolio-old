@@ -18,7 +18,7 @@ const Projects = () => {
             title: 'E-Manager',
             description: 'Full stack app that allows small business owners to manage clients and allocate tasks.',
             liveLink: 'https://ejf-emanager.herokuapp.com/',
-            codeLink: 'https://github.com/elliefoote/e-manager-app',
+            codeLink: 'https://github.com/elliefoote/e-manager-public',
             img: 'EManager.png',
             alt: 'E-Manager app screenshot',
             leftOrRight: 'right'
@@ -28,7 +28,7 @@ const Projects = () => {
             title: 'Homegrown Bcn',
             description: 'Full stack ecommerce app that allows socially conscious shoppers to connect with local makers and artists.',
             liveLink: 'https://homegrown-bcn.herokuapp.com/',
-            codeLink: 'https://github.com/elliefoote/e-manager-app',
+            codeLink: 'https://github.com/elliefoote/homegrown-app',
             img: 'Homegrown.png',
             alt: 'Homegrown app screenshot',
             leftOrRight: 'left'
