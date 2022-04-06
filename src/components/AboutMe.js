@@ -1,5 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image";
+import EllieWork from '../images/Ellie_Work1.jpg';
 import EllieFooteCV from '../images/EllieFooteCV.pdf';
 
 const AboutMe = () => {
@@ -14,8 +15,8 @@ const AboutMe = () => {
         <div className="col-md-5 d-flex justify-content-center">
 
         <div className="about-me-container rounded mb-4 mt-3">
-        <StaticImage 
-            src='../images/Ellie_Work1.jpg'
+        <img 
+            src={EllieWork}
             className="about-me-pic rounded"
             alt="Ellie Foote"
         />
