@@ -1,9 +1,5 @@
 import * as React from "react";
-import BookSwapper from '../images/BookSwapper.png';
-import EManager from '../images/EManager.png';
-import Homegrown from '../images/Homegrown.png';
-import MarcTinent from '../images/MarcTinent.png';
-import { StaticImage } from "gatsby-plugin-image";
+import ProjectImage from './ProjectImage';
 
 const Projects = () => {
     const projectData = [
@@ -13,7 +9,8 @@ const Projects = () => {
             description: 'Full stack app that allows users to list their pre-loved books and exchange messages to arrange book swaps.',
             liveLink: 'https://ejf-book-swapper.herokuapp.com/',
             codeLink: 'https://github.com/elliefoote/book-swap',
-            img: BookSwapper,
+            img: 'BookSwapper.png',
+            alt: 'BookSwapper app screenshot',
             leftOrRight: 'left'
         },
         {
@@ -22,7 +19,8 @@ const Projects = () => {
             description: 'Full stack app that allows small business owners to manage clients and allocate tasks.',
             liveLink: 'https://ejf-emanager.herokuapp.com/',
             codeLink: 'https://github.com/elliefoote/e-manager-app',
-            img: EManager,
+            img: 'EManager.png',
+            alt: 'E-Manager app screenshot',
             leftOrRight: 'right'
         },
         {
@@ -31,7 +29,8 @@ const Projects = () => {
             description: 'Full stack ecommerce app that allows socially conscious shoppers to connect with local makers and artists.',
             liveLink: 'https://homegrown-bcn.herokuapp.com/',
             codeLink: 'https://github.com/elliefoote/e-manager-app',
-            img: Homegrown,
+            img: 'Homegrown.png',
+            alt: 'Homegrown app screenshot',
             leftOrRight: 'left'
         },
         {
@@ -40,7 +39,8 @@ const Projects = () => {
             description: 'One-page site for a professional author.',
             liveLink: 'https://www.marctinent.com',
             codeLink: 'https://github.com/elliefoote/marc-tinent/',
-            img: MarcTinent,
+            img: 'MarcTinent.png',
+            alt: 'Marc Tinent site screenshot',
             leftOrRight: 'right'
         }
     ]
@@ -59,7 +59,7 @@ const Projects = () => {
                 <div className={p.leftOrRight==="left" ? "project-card row justify-content-center gx-5 mb-5 shadow" : "project-card row justify-content-center gx-5 mb-5 flex-row-reverse shadow"} key={p.id}>
 
                     <div className="project-image-container col-xl-8">
-                    <img alt={p.title} src={p.img} className="project-image" />
+                    <ProjectImage alt={p.title} filename={p.img} />
                     </div>
 
                     <div className="col-xl-4">
