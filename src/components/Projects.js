@@ -66,10 +66,10 @@ const Projects = () => {
                         <div className="fs-3">{p.title}</div>
                         <div className="fs-6">{p.description}</div>
 
-                        <div className="mt-4">
+                        <div className="mt-4 row">
                             
-                            <a href={p.liveLink} className="cta text-light py-2 px-3 fs-6">View Live Version</a>
-                            <a href={p.codeLink} className="gh-link ms-3">View On GitHub</a>
+                            <a href={p.liveLink} className="col-md-6 cta text-light py-2 px-3 fs-6">View Live Version</a>
+                            <a href={p.codeLink} className="col-md-6 gh-link text-center mt-2">View On GitHub</a>
                             
                         </div>
                     </div>
