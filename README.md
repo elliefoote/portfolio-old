@@ -1,10 +1,10 @@
 # My personal portfolio website
 
 ## Table of contents
-Overview and goals
-What I learned
-Future features
-Acknowledgements
+1. [Overview and goals](#overview-and-goals)
+2. [What I learned](#what-i-learned)
+3. [Future features](#future-features)
+4. [Acknowledgements](#acknowledgements)
 
 ## Overview and goals
 This is my personal portfolio website. 
@@ -14,7 +14,7 @@ I developed this site with a few goals in mind:
 2) to practice using GatsbyJS, as its a front-end framework that I'm really interested in
 3) to get more experience deploying sites using Netlify.
 
-I also wanted the site to be fully responsive and look great on both desktop and mobile. With that in mind, I took a mobile-first approach to development.
+I also wanted the site to be fully responsive and look great on both desktop and mobile, as well as meeting accessibility standards.
 
 ## What I learned
 I learned a ton through this project! One example: I had never had any exposure to GraphQL before, but Gatsby's responsive image plugin requires embedding GraphQL queries in different components. After a lot of reading, I managed to get it working well, and improved the site's performance significantly. 
