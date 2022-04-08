@@ -1,54 +1,26 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# My personal portfolio website
 
-## 🚀 Quick start
+## Table of contents
+Overview and goals
+What I learned
+Future features
+Acknowledgements
 
-1.  **Create a Gatsby site.**
+## Overview and goals
+This is my personal portfolio website. 
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+I developed this site with a few goals in mind:
+1) to have a place to host the full-stack projects I've been developing over the past few months
+2) to practice using GatsbyJS, as its a front-end framework that I'm really interested in
+3) to get more experience deploying sites using Netlify.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+I also wanted the site to be fully responsive and look great on both desktop and mobile. With that in mind, I took a mobile-first approach to development.
 
-2.  **Start developing.**
+## What I learned
+I learned a ton through this project! One example: I had never had any exposure to GraphQL before, but Gatsby's responsive image plugin requires embedding GraphQL queries in different components. After a lot of reading, I managed to get it working well, and improved the site's performance significantly. 
 
-    Navigate into your new site’s directory and start it up.
+## Future features
+Beyond adding additional projects as I develop them, I would love to add a dark mode to the site.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+## Acknowledgements
+I looked at a ton of portfolio examples while working on this project. Two that I found particularly useful were [this site](https://fredrikridderfalk.github.io/) by Frerik Ridderfalk (which also has an amazing ReadMe) and [this Gatsby portfolio template](https://gatsby-simplefolio.netlify.app/) by Jacobo Martínez.
