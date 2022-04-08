@@ -1,5 +1,7 @@
 # My personal portfolio website
 
+![Screenshot of website](https://github.com/elliefoote/portfolio-v2/blob/main/src/images/Screenshot.png)
+
 ## Table of contents
 1. [Overview and goals](#overview-and-goals)
 2. [What I learned](#what-i-learned)
