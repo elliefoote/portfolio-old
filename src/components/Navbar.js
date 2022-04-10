@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -13,13 +14,26 @@ const Navbar = () => {
             <div id="navbarToggler" className="collapse navbar-collapse justify-content-end">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                    <a className="my-nav nav-link" aria-current="page" href="#about-me">About Me</a>
+                    <Link 
+                    className="my-nav nav-link" 
+                    aria-current="page" 
+                    to="about-me">
+                      About Me
+                    </Link>
                     </li>
                     <li className="nav-item">
-                    <a className="my-nav nav-link" href="#my-work">My Work</a>
+                    <Link 
+                    className="my-nav nav-link" 
+                    to="my-work">
+                      My Work
+                      </Link>
                     </li>
                     <li className="nav-item">
-                    <a className="my-nav nav-link" href="#contact-me">Contact Me</a>
+                    <Link 
+                    className="my-nav nav-link" 
+                    to="contact-me">
+                      Contact Me
+                      </Link>
                     </li>
                 </ul>
             </div>
