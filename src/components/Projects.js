@@ -28,7 +28,7 @@ const Projects = () => {
             title: 'Homegrown Bcn',
             description: 'Full stack ecommerce app that allows socially conscious shoppers to connect with local makers and artists.',
             liveLink: 'https://homegrown-bcn.herokuapp.com/',
-            codeLink: 'https://github.com/elliefoote/homegrown-app',
+            codeLink: 'https://github.com/CodeOp-tech/FS17-Team3',
             img: 'Homegrown.png',
             alt: 'Homegrown app screenshot',
             leftOrRight: 'left'
