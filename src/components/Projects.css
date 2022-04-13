@@ -1,0 +1,44 @@
+.project-card {
+    width: 85%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.project-image-container {
+    max-width: 600px;
+    height: auto;
+    position: relative;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.project-image-overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-row-gap: 20px;
+  }
+  
+  .project-image-container:hover .project-image {
+    opacity: 0.3;
+  }
+  
+  .project-image-container:hover .project-image-overlay {
+    opacity: 1;
+  }

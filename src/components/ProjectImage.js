@@ -14,7 +14,7 @@ export default function ProjectImage({filename, alt}) {
                   name
                   childImageSharp {
                     gatsbyImageData(
-                        width: 500
+                        width: 600
                         placeholder: BLURRED
                         formats: [AUTO, WEBP]
                         )
