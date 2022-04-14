@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 // markup
 const IndexPage = () => {
-  return (
+  return (  
     <main>
       <title>Ellie Foote</title>
       <Navbar />
