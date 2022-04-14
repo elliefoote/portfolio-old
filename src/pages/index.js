@@ -3,12 +3,19 @@ import Navbar from '../components/Navbar';
 import App from '../components/App';
 import './styles.css';
 import Footer from '../components/Footer';
+import Helmet from 'react-helmet'
 
 // markup
 const IndexPage = () => {
   return (  
     <main>
-      <title>Ellie Foote</title>
+      <Helmet>
+          <meta charSet="utf-8" />
+          <html lang="en" />
+          <meta name="description" content="I'm a software engineer based in Barcelona, building responsive, user-friendly web sites and apps." />
+          <title>Ellie Foote | Software Engineer</title>
+          <link rel="canonical" href="http://www.elliefoote.com" />
+        </Helmet>
       <Navbar />
       <App />
       <Footer />
