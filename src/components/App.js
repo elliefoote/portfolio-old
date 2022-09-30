@@ -1,18 +1,12 @@
-import * as React from "react"
-import Hero from './Hero';
-import AboutMe from './AboutMe';
-import ContactMe from './ContactMe';
-import Projects from './Projects';
+import * as React from "react";
+import Hero from "./Hero";
 
 const App = () => {
   return (
     <div className="text-dark">
-        <Hero />
-        <AboutMe />
-        <Projects />
-        <ContactMe />
+      <Hero />
     </div>
-  )
-}
+  );
+};
 
 export default App;
